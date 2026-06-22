@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Start All [dev]" type="CompoundRunConfigurationType">
+    <toRun name="Run [dev]" type="MavenRunConfiguration" />
+    <toRun name="Frontend [dev]" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

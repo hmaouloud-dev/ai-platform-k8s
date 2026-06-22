@@ -1,3 +1,112 @@
-Java
-Node
-Terraform
+# ========================
+# Java / Maven
+# ========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========================
+# Node / Angular
+# ========================
+node_modules/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+npm-debug.log*
+yarn-error.log
+.angular/cache/
+coverage/
+
+# ========================
+# Terraform
+# ========================
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+crash.log
+crash.*.log
+
+# ========================
+# Kubernetes / Secrets
+# ========================
+*-secret.yaml
+*-secrets.yaml
+kubeconfig
+*.kubeconfig
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ========================
+# IDEs
+# ========================
+## IntelliJ IDEA (keep .gitignore and vcs.xml)
+.idea/workspace.xml
+.idea/misc.xml
+.idea/httpRequests/
+.idea/queries/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iws
+*.iml
+*.ipr
+
+## VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/
+
+## Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+build/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db

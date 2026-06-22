@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Frontend [dev]" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/apps/frontend/ai-plateform-ui/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
